@@ -1,0 +1,26 @@
+body *{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+body{
+    background-color: black;
+}
+.logo_nav{
+    width: 30px;
+    height: 30px;
+}
+.titulo{
+    color: white;
+    text-align: center;
+}
+.barra_titulo{
+    color: #00BFBC;
+    min-height: 2px;
+}
+.color-nav{
+    background-color: #00BFBC
+    ;
+}
+.text_loren{
+    color: white;
+}
