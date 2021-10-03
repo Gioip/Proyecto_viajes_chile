@@ -6,6 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>viaje_chile | home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body,
+        #wrapper {
+            width: 100%;
+            height: 100%;
+        }
+
+        iframe {
+            border-radius: 0 !important;
+        }
+    </style>
     <!--font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,9 +50,9 @@
             <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
                     <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    <a class="nav-link" href="#">Quienes somos</a>
-                    <a class="nav-link" href="#">Destacados</a>
-                    <a class="nav-link ">Contactos</a>
+                    <a class="nav-link" href="#quienes_somos">Quienes somos</a>
+                    <a class="nav-link" href="#destacados">Destacados</a>
+                    <a class="nav-link " href="#contacto">Contactos</a>
                 </div>
             </div>
         </div>
@@ -72,12 +89,11 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <!---->
-    <section>
+    <!--section de quienes somos -->
+
+    <section id="quienes_somos" class="quienes_somos">
         <h1 class="titulo">¿Quienes Somos?</h1>
         <hr class="barra_titulo">
-    </section>
-    <section>
         <div class="container">
             <div class="row text-white">
                 <div class="col-4">
@@ -97,10 +113,10 @@
                         eligendi nobis sequi exercitationem deserunt doloribus pariatur. Lorem ipsum dolor sit amet
                         consectetur adipisicing elit. Aperiam dignissimos atque est ipsa nihil veritatis, ab hic ad
                         totam provident esse facere autem minima fuga cum earum pariatur odio? Dolore.</p>
-                    <div class="container text-center bg-info "><i class="fas fa-plane fa-2x"></i></div>
+                    <div class="container text-center bg-info "><i class="fas fa-mountain fa-2x"></i></div>
                 </div>
                 <div class="col-4">
-                    <div class="container text-center bg-info"><i class="fas fa-plane fa-2x"></i></div>
+                    <div class="container text-center bg-info"><i class="fas fa-route"></i></div>
                     <p class="text_loren">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit excepturi
                         minima, at molestias
                         magnam beatae repellendus, dolorum doloremque corporis suscipit itaque perspiciatis consectetur
@@ -112,15 +128,92 @@
             </div>
         </div>
     </section>
-    <section>
+
+    <!--section de destacados-->
+    <section id="destacados">
         <h2 class="titulo">Destacados</h2>
         <hr class="barra_titulo">
+
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card bg-card cards">
+                        <img src="assets/img/card1.jpg" class="card-img-top img-card" alt="imagen_car1">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the Card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card bg-card cards">
+                        <img src="assets/img/card2.jpg" class="card-img-top img-card" alt="imagen_car2">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card bg-card cards">
+                        <img src="assets/img/card3.jpg" class=" img-card" alt="imagen_car3">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card bg-card cards">
+                        <img src="assets/img/card4.jpg" class="card-img-top img-card" alt="imagen_car4">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <section id="contacto">
+        <!--section formulario-->
+        <h2 class="titulo">Contacto</h2>
+        <hr class="barra_titulo">
+        <div data-tf-widget="rZnzXreL" style="width:100%;height:400px;"></div>
+        <script src="//embed.typeform.com/next/embed.js"></script>
+    </section>
+    <!--section footer-->
     
-    <!--js bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-        crossorigin="anonymous"></script>
+
+        <footer class="clas-footer">
+            <p>VIAJE CHILE</p>
+
+            <ul class="class-ul-footer ">
+                <li class="li pe-2"><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="li pe-2"><a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a></li>
+                <li class="li pe-2"><a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+                <li class="li pe-2"><a
+                        href="https://www.elcontainer.cl/audifonos?gclid=CjwKCAjwqeWKBhBFEiwABo_XBpRV3-q29JxaPvJrAJNZ5x9fnU4DJc3p34bNbsHl81pj-vaFkorhPhoCsvQQAvD_BwE"><i
+                            class="fas fa-headphones-alt"></i></a></li>
+            </ul>
+
+        </footer>
+
+        <!--js bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+            crossorigin="anonymous"></script>
+
+        <!--mi script-->
+        <script src="assets/js/scripts.js"></script>
+
+
 </body>
+
 
 </html>
